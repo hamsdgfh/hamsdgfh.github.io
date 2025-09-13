@@ -6,7 +6,7 @@ on:
       - 'talks/**'
       - '_talks/**'
       - 'talkmap.ipynb'
-   workflow_dispatch:
+    workflow_dispatch:
   # 필요시, 정기 실행도 추가할 수 있어요:
   # schedule:
   #   - cron: '0 0 * * 1'  # 매주 월요일 00:00 UTC
