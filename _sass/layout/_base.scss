@@ -2,6 +2,7 @@
    BASE ELEMENTS
    ========================================================================== */
 html {
+  font-size: clamp(16px, 1.5vw, 20px);
   /* sticky footer fix */
   position: relative;
   min-height: 100%;
