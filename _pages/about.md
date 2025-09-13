@@ -9,7 +9,7 @@ redirect_from:
 
 이곳은 제 생각과 경험을 공유하는 개인 웹사이트입니다. GitHub Pages와 Academic Pages 템플릿을 기반으로 만들어졌으며, 학술적 내용뿐만 아니라 다양한 전문 분야의 활동을 담아내기에 좋은 공간입니다.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+저는 한신대학교 AISW계열에 재학 중인 1학년 학생입니다. 기술을 통해 더 나은 세상을 만드는 것에 관심이 많으며, 현재는 웹 개발과 인공지능 분야를 중심으로 배움의 첫걸음을 내딛고 있습니다. 이 웹사이트는 제가 배우고 경험한 것들을 기록하고 공유하는 공간입니다.
 
 A data-driven personal website
 ======
