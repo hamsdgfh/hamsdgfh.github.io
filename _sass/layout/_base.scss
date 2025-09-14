@@ -389,34 +389,3 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   border-radius: 12px;          /* 모서리 살짝 둥글게 (원치 않으면 제거) */
   box-shadow: 0 8px 24px rgba(0,0,0,.06); /* 은은한 그림자 (선택) */
 }
-
-/* 여백 (너무 붙어 보이면 약간 패딩 추가) */
-.page,
-.archive,
-.post {
-  padding: 1.25rem;
-}
-
-/* 그라데이션이 스크롤에 따라 부드럽게 보이게 (선택) */
-body {
-  background-attachment: fixed; /* 성능 이슈 있으면 이 줄은 빼도 됨 */
-}
-
-/* 헤더/푸터는 투명 유지 (배경 비치게) */
-.masthead,
-.page__footer {
-  background: transparent;
-}
-
-/* 카드 일부 섹션이 투명하게 남아 있으면 보정 */
-.page__hero,
-.page__meta,
-.toc {
-  background: transparent;
-}
-
-/* 코드 블록/표 등 내부 요소의 배경이 회색이라면 필요에 따라 보정 */
-.highlight,
-table {
-  background: #fff;
-}
