@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "air" # Currently available options are "default", "air"
+site_theme               : "contrast" # Currently available options are "default", "air"
 title                    : "신민석 / 포트폴리오"
 title_separator          : "-"
 name                     : &name "신민석"
@@ -25,7 +25,7 @@ author:
   # Biographic information
   avatar           : "bio-photo.jpg"
   name             : "신민석"
-  bio              : "한신대학교 AISW계열 재학생. AI와 데이터 기술을 공부하며 배움을 기록합니다."
+  bio              : "한신대학교 AISW계열 재학생"
   location         : "South Korea"
   employer         : "Hanshin University"
   uri              : # URL
