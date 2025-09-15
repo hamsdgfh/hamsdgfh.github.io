@@ -2,9 +2,8 @@
 
 신민석:
   name        : "신민석"
-  uri         : "http://name.com"
+  uri         : "https://hamsdgfh.github.io/"
   email       : "smseok0104@gmail.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
+  bio         : "현재 한신대학교 AISW 계열에 재학 중입니다. 인공지능에 관심을 두고 공부하며, 이 블로그에 배움과 프로젝트를 기록합니다."
+  avatar      : "images/bio-photo.jpg"
+  github      : "hamsdgfh"
