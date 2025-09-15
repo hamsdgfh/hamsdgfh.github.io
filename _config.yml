@@ -7,7 +7,7 @@
 # server process.
 
 # Theme Settings
-remote_theme: academicpages/academicpages.github.io
+theme: minimal-mistakes-jekyll
 skin: "contrast"
 
 # Basic Site Settings
