@@ -23,10 +23,9 @@ repository               : "hamsdgfh/hamsdgfh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/bio-photo.jpg"
+  avatar           : "bio-photo.jpg"
   name             : "신민석"
-  pronouns         : # example: "she/her"  
-  bio              : "현재 한신대학교 AISW 계열에 재학 중입니다. 인공지능에 관심을 두고 공부하며, 이 블로그에 배움과 프로젝트를 기록합니다."
+  bio              : "한신대학교 AISW계열 재학생. AI와 데이터 기술을 공부하며 배움을 기록합니다."
   location         : "South Korea"
   employer         : "Hanshin University"
   uri              : # URL

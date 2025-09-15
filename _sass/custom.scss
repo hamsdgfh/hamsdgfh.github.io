@@ -1,20 +1,11 @@
+/* Custom Gradient Background */
 body {
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  background: linear-gradient(to top, #e5e5e5, #f4f4f4);
+  background-attachment: fixed;
 }
 
-.page,
-.page__content,
-.post,
-.archive {
-  background: #fff;
-  border-radius: 12px;
-  padding: 1.25rem;
-}
-
-@keyframes gradient {
-  0%   { background-position: 0% 50%; }
-  50%  { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+/* Content Padding */
+.page__content {
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
