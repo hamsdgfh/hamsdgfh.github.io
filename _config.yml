@@ -8,6 +8,7 @@
 
 # Theme Settings
 remote_theme: mmistakes/minimal-mistakes
+skin: "air"
 
 
 # Basic Site Settings
