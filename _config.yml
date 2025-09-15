@@ -8,7 +8,7 @@
 
 # Theme Settings
 remote_theme: mmistakes/minimal-mistakes
-skin: "contrast"
+
 
 # Basic Site Settings
 locale                   : "en-US"
