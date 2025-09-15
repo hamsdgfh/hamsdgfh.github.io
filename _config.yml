@@ -6,10 +6,12 @@
 # `jekyll serve -l -H localhost`. If you change this file, please restart the 
 # server process.
 
+# Theme Settings
+remote_theme: academicpages/academicpages.github.io
+skin: "contrast"
+
 # Basic Site Settings
 locale                   : "en-US"
-
-title                    : "신민석 / 포트폴리오"
 title_separator          : "-"
 name                     : &name "신민석"
 description              : &description "신민석의 포트폴리오"   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,7 +25,7 @@ repository               : "hamsdgfh/hamsdgfh.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "bio-photo.jpg"
+  avatar           : "/images/bio-photo.jpg"
   name             : "신민석"
   bio              : "한신대학교 AISW계열 재학생"
   location         : "South Korea"
