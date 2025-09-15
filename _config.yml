@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "contrast" # Currently available options are "default", "air"
+
 title                    : "신민석 / 포트폴리오"
 title_separator          : "-"
 name                     : &name "신민석"
@@ -346,6 +346,15 @@ tag_archive:
 #     tag: archive-taxonomy
 #   permalinks:
 #     category: /categories/:name/
+#     tag: /tags/:name/
+
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development: /categories/:name/
 #     tag: /tags/:name/
 
 
