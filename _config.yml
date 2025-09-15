@@ -7,7 +7,7 @@
 # server process.
 
 # Theme Settings
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 skin: "contrast"
 
 # Basic Site Settings
