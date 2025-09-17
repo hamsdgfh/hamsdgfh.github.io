@@ -15,7 +15,7 @@ skin: "air"
 locale                   : "en-US"
 title_separator          : "-"
 name                     : &name "신민석"
-description              : &description "신민석의 포트폴리오"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "신민석 | AI & Software Engineer in training"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://hamsdgfh.github.io/ # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -154,9 +154,9 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               :  "google-analytics-4"
   google:
-    tracking_id          : 
+    tracking_id          : "G-69FH52T1EM" 
 
 
 # Reading Files
