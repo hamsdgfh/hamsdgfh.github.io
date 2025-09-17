@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About"
+title: "신민석의 포트폴리오"
 author_profile: true
 redirect_from: 
   - /about/
