@@ -22,12 +22,12 @@ redirect_from:
 ---
 
 ### ⚙️ 관심 분야 및 기술 스택
-| 분야 | 주요 기술 및 도구 |
-|------|----------------|
-| **프론트엔드** | React, Next.js, Tailwind CSS |
-| **정적 웹 구축** | Jekyll, GitHub Pages |
-| **학습 중** | TypeScript, FastAPI, 데이터 시각화 |
-| **개발 도구** | VSCode, GitHub, Figma |
+| 분야 | 주요 기술 및 도구 |<br>
+|------|----------------|<br>
+| **프론트엔드** | React, Next.js, Tailwind CSS |<br>
+| **정적 웹 구축** | Jekyll, GitHub Pages |<br>
+| **학습 중** | TypeScript, FastAPI, 데이터 시각화 |<br>
+| **개발 도구** | VSCode, GitHub, Figma |<br>
 
 저는 단순히 기술을 나열하는 데서 그치지 않고,  
 **“이 기술을 왜 쓰는가”**를 고민하며 프로젝트에 적용합니다.  
