@@ -352,3 +352,12 @@ zh-TW:
 
 # Another locale
 # --------------
+ko:
+  page: "페이지"
+  pagination_previous: "이전"
+  pagination_next: "다음"
+  breadcrumb_home_label: "홈"
+  toc_label: "이 문서에서"
+  tags_label: "태그:"
+  categories_label: "카테고리:"
+
