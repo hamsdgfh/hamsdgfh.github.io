@@ -1,14 +1,14 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
+    "name": "신민석",
+    "email": "smseok0104@gmail.com",
+    "phone": "010-3417-5024",
+    "website": "https://hamsdgfh.github.io",
     "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "South Korea",
       "countryCode": "US",
       "region": ""
     },
