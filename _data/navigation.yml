@@ -1,7 +1,7 @@
 main:
-  - title: "소개"
+  - title: "Introduction"
     url: /
-  - title: "포트폴리오"
+  - title: "Portfolio"
     url: /portfolio/
-  - title: "블로그"
+  - title: "Blog"
     url: /year-archive/
