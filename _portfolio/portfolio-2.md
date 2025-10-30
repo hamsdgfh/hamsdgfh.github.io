@@ -1,6 +1,8 @@
 ---
 title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2"
+excerpt: "Short description of portfolio item number 2dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
 header:
   teaser: /images/500x300.png
 collection: portfolio
