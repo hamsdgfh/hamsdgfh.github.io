@@ -8,7 +8,7 @@
 
 # Theme Settings
 remote_theme: mmistakes/minimal-mistakes
-skin: "contrast"
+minimal_mistakes_skin: "contrast"
 
 
 # Basic Site Settings
@@ -20,13 +20,6 @@ url                      : https://hamsdgfh.github.io/ # The base hostname & pro
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hamsdgfh/hamsdgfh.github.io"
-
-# Custom styles
-sass:
-  style: compressed
-
-include:
-  - assets/css/custom.scss
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
