@@ -52,3 +52,66 @@ img:hover {
   background: transparent !important;
   box-shadow: none !important;
 }
+
+/* ========== 카드 상자 완전 제거 (목록/아카이브 전용) ========== */
+
+/* 레이아웃 래퍼 단계에서 일괄 비우기 */
+.layout--archive .page,
+.layout--archive .page__inner-wrap,
+.layout--archive .page__content,
+.layout--collection .page,
+.layout--collection .page__inner-wrap,
+.layout--collection .page__content,
+.layout--posts .page,
+.layout--posts .page__inner-wrap,
+.layout--posts .page__content {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* 목록 카드 아이템/티저/요약 박스 제거 */
+.layout--archive .archive,
+.layout--archive .archive__item,
+.layout--archive .archive__item-excerpt,
+.layout--archive .archive__item-teaser,
+.layout--collection .archive,
+.layout--collection .archive__item,
+.layout--collection .archive__item-excerpt,
+.layout--collection .archive__item-teaser,
+.layout--posts .archive,
+.layout--posts .archive__item,
+.layout--posts .archive__item-excerpt,
+.layout--posts .archive__item-teaser {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+}
+
+/* 제목/리드/메타 영역도 평면화 */
+.layout--archive .page__lead,
+.layout--archive .page__meta,
+.layout--archive .page__title,
+.layout--collection .page__lead,
+.layout--collection .page__meta,
+.layout--collection .page__title,
+.layout--posts .page__lead,
+.layout--posts .page__meta,
+.layout--posts .page__title {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+
+/* (선택) front matter에 classes: no-card 썼을 때 더 강하게 비우기 */
+.no-card .archive,
+.no-card .archive__item,
+.no-card .list__item,
+.no-card .grid__item {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
