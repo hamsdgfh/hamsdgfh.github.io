@@ -1,14 +1,9 @@
 ---
 layout: collection
-title: "Portfolio"
+title: "포트폴리오"
 permalink: /portfolio/
-entries_layout: list
-classes: no-card
+author_profile: true
+collection: portfolio        # ← 빠져 있던 핵심 키
+entries_layout: list         # ← 카드형(grid) 대신 리스트
+classes: no-card             # ← 우리가 CSS에서 카드 잔상 지울 때 쓰는 클래스
 ---
-
-{% include base_path %}
-
-
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
