@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "신민석의 포트폴리오"
-author_profile: true
+author_profile: false
 redirect_from: 
   - /about/
   - /about.html
