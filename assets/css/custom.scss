@@ -2,60 +2,31 @@
 # Custom CSS overrides for 신민석 포트폴리오
 ---
 
-/* 1. 전체 배경 단색으로 변경 */
+/* 1) 전체 배경 톤 */
 body {
   background: #f8f9fb !important;
 }
 
-/* 2. 페이지 겹겹이 카드형 제거 */
+/* 2) 공통 박스(흰 사각형) 제거 */
 .page,
 .page__content,
-.page__inner-wrap {
+.page__inner-wrap,
+.archive,
+.archive__item,
+.archive__item-excerpt,
+.archive__item-teaser,
+.card,
+.notice,
+.page__lead,
+.page__meta,
+.page__title {
   background: transparent !important;
   box-shadow: none !important;
-  border: none !important;
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 
-/* 3. 본문 폭 및 여백 조정 */
-.page__content {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
-}
-
-/* 4. 글자색, 링크색 */
-body, p, li {
-  color: #222 !important;
-  line-height: 1.7;
-}
-
-a {
-  color: #0070f3;
-  text-decoration: none;
-}
-a:hover {
-  text-decoration: underline;
-}
-
-/* 5. 이미지 스타일 */
-img {
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease;
-}
-img:hover {
-  transform: scale(1.02);
-}
-
-/* 6. 사이드바 배경 제거 */
-.sidebar {
-  background: transparent !important;
-  box-shadow: none !important;
-}
-
-/* ========== 카드 상자 완전 제거 (목록/아카이브 전용) ========== */
-
-/* 레이아웃 래퍼 단계에서 일괄 비우기 */
+/* 3) 목록/컬렉션/포스트 레이아웃에서 한 번 더 강제 */
 .layout--archive .page,
 .layout--archive .page__inner-wrap,
 .layout--archive .page__content,
@@ -70,7 +41,7 @@ img:hover {
   border: 0 !important;
 }
 
-/* 목록 카드 아이템/티저/요약 박스 제거 */
+/* 4) 목록 아이템/티저 상자 제거 */
 .layout--archive .archive,
 .layout--archive .archive__item,
 .layout--archive .archive__item-excerpt,
@@ -90,22 +61,35 @@ img:hover {
   padding: 0 !important;
 }
 
-/* 제목/리드/메타 영역도 평면화 */
-.layout--archive .page__lead,
-.layout--archive .page__meta,
-.layout--archive .page__title,
-.layout--collection .page__lead,
-.layout--collection .page__meta,
-.layout--collection .page__title,
-.layout--posts .page__lead,
-.layout--posts .page__meta,
-.layout--posts .page__title {
+/* 5) 리스트형 간격만 가볍게 */
+.list__item {
   background: transparent !important;
-  box-shadow: none !important;
   border: 0 !important;
+  padding: .5rem 0 !important;
+}
+.list__item + .list__item {
+  border-top: 1px solid rgba(0,0,0,.06) !important;
 }
 
-/* (선택) front matter에 classes: no-card 썼을 때 더 강하게 비우기 */
+/* 6) 본문 폭/여백 및 텍스트 */
+.page__content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+body, p, li { color: #222 !important; line-height: 1.7; }
+a { color: #0070f3; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* 7) 이미지 */
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  transition: transform 0.2s ease;
+}
+img:hover { transform: scale(1.02); }
+
+/* 8) no-card 클래스 사용 시 더 강하게 비우기 */
 .no-card .archive,
 .no-card .archive__item,
 .no-card .list__item,
