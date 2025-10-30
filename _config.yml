@@ -21,6 +21,13 @@ url                      : https://hamsdgfh.github.io/ # The base hostname & pro
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "hamsdgfh/hamsdgfh.github.io"
 
+# Custom styles
+sass:
+  style: compressed
+
+include:
+  - assets/css/custom.scss
+
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
