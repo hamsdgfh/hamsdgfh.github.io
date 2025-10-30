@@ -1,0 +1,54 @@
+---
+# Custom CSS overrides for 신민석 포트폴리오
+---
+
+/* 1. 전체 배경 단색으로 변경 */
+body {
+  background: #f8f9fb !important;
+}
+
+/* 2. 페이지 겹겹이 카드형 제거 */
+.page,
+.page__content,
+.page__inner-wrap {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+/* 3. 본문 폭 및 여백 조정 */
+.page__content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* 4. 글자색, 링크색 */
+body, p, li {
+  color: #222 !important;
+  line-height: 1.7;
+}
+
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* 5. 이미지 스타일 */
+img {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease;
+}
+img:hover {
+  transform: scale(1.02);
+}
+
+/* 6. 사이드바 배경 제거 */
+.sidebar {
+  background: transparent !important;
+  box-shadow: none !important;
+}
