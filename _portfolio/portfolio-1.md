@@ -4,4 +4,43 @@ excerpt: "학습한 C 언어 알고리즘을 기록합니다."
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+## 🧮 C Algorithm Study
+
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/hamsdgfh/c-algorithm-study)
+
+---
+
+🚀 **프로젝트 개요**  
+C 언어를 활용하여 알고리즘 문제를 학습하고 정리한 개인 공부용 레포지토리입니다.  
+기본적인 정렬, 탐색, 재귀, 자료구조 등 핵심 알고리즘을 직접 구현하면서 문제 해결 능력을 향상시키는 것을 목표로 했습니다.  
+각 코드에는 학습 과정에서 이해한 개념과 로직 설명을 주석으로 기록하여, 이후 복습과 참고가 용이하도록 구성했습니다.
+
+---
+
+🛠️ **사용 기술 및 환경**  
+- **Language:** C  
+- **IDE:** Visual Studio Code / GCC  
+- **Version Control:** Git & GitHub  
+
+---
+
+✨ **주요 구현 내용**  
+- **기본 정렬 알고리즘:** 버블 정렬, 선택 정렬, 삽입 정렬 등 직접 구현  
+- **탐색 알고리즘:** 선형 탐색, 이진 탐색  
+- **재귀 알고리즘:** 팩토리얼, 피보나치, 하노이의 탑 등 재귀적 사고력 향상  
+- **기본 자료구조:** 배열, 포인터, 문자열, 구조체 등을 이용한 문제 해결  
+- **코드 구조화:** 알고리즘별로 디렉터리를 구분하여 체계적으로 관리  
+
+---
+
+🧩 **프로젝트 특징**  
+- 각 알고리즘의 핵심 개념과 동작 과정을 주석으로 상세히 기록  
+- 실습 중심으로 작성하여 “이론 → 구현 → 분석”의 학습 흐름 유지  
+- 동일 알고리즘의 다양한 구현 방식을 비교하며 효율성 분석  
+
+---
+
+📝 **배운 점**  
+이 프로젝트를 통해 C 언어의 기본 문법을 넘어 **알고리즘의 구조적 사고 방식**을 익혔으며,  
+코드를 함수 단위로 나누어 작성하는 **모듈화와 가독성 향상 방법**을 배웠습니다.  
+또한, GitHub를 활용한 버전 관리와 코드 정리의 중요성을 직접 체득했습니다.
