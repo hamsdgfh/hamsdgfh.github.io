@@ -1,6 +1,6 @@
 ---
 title: "Information Website"
-excerpt: "포트폴리오 · 자기소개 웹사이트"
+excerpt: "포트폴리오 · 자기소개를 포함한 웹사이트입니다."
 collection: portfolio
 ---
 
