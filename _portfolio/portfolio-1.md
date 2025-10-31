@@ -1,6 +1,6 @@
 ---
 title: "C - Study"
-excerpt: "C 언어 알고리즘 학습 기록"
+excerpt: "학습한 C 언어 알고리즘을 기록합니다."
 collection: portfolio
 ---
 
