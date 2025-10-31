@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "C - Study"
+excerpt: "C 언어 알고리즘 학습 기록"
 collection: portfolio
 ---
 
