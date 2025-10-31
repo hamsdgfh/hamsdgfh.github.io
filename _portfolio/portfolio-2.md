@@ -1,8 +1,6 @@
 ---
-title: "Portfolio item number 2"
-excerpt: "Short description of portfolio item number 2"
-header:
-  teaser: /images/500x300.png
+title: "Information Website"
+excerpt: "포트폴리오 · 자기소개 웹사이트"
 collection: portfolio
 ---
 
