@@ -1,9 +1,6 @@
 ---
 title: "개인 포트폴리오 웹사이트 제작"
 excerpt: "Jekyll과 Minimal Mistakes 테마를 사용하여 개인 포트폴리오 및 기술 블로그를 제작한 프로젝트입니다."
-header:
-  image: /images/500x300.png
-  teaser: /images/500x300.png
 date: 2025-09-15
 tags:
   - Jekyll
