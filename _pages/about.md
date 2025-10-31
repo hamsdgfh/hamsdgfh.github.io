@@ -22,11 +22,11 @@ redirect_from:
 ---
 
 ### ⚙️ 관심 분야 및 기술 스택
-| 분야         | 주요 기술/도구                  |
-|--------------|---------------------------------|
-| 프론트엔드   | React, Next.js, Tailwind CSS    |
-| 정적 웹      | Jekyll, GitHub Pages            |
-| 학습 중      | TypeScript, FastAPI, Viz        |
+| 분야         | 주요 기술/도구                  |<br>
+|--------------|---------------------------------|<br>
+| 프론트엔드   | React, Next.js, Tailwind CSS    |<br>
+| 정적 웹      | Jekyll, GitHub Pages            |<br>
+| 학습 중      | TypeScript, FastAPI, Viz        |<br>
 
 
 저는 단순히 기술을 나열하는 데서 그치지 않고,  
